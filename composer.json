@@ -1,5 +1,5 @@
 {
-    "name": "slywalker/base",
+    "name": "slywalker/debug_kit_plus",
     "type": "cakephp-plugin",
     "description": "CakePHP DebugKitPlus Plugin",
     "keywords": [
