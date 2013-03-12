@@ -6,7 +6,10 @@
 
 		public $components = array(
 			'DebugKit.Toolbar' => array(
-				'panels' => array('DebugKitPlus.Configure')
+				'panels' => array(
+					'DebugKitPlus.Configure',
+					'DebugKitPlus.RequestPlus'
+				)
 			)
 		);
 
