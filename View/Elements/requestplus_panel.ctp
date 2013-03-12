@@ -1,6 +1,6 @@
 <?php
 /**
- * Request Panel Element
+ * Request Plus Panel Element
  *
  * @package       DebugKitPlus
  * @subpackage    DebugKitPlus.View.Elements

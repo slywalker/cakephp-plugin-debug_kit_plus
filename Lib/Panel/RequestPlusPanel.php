@@ -2,7 +2,7 @@
 App::uses('DebugPanel', 'DebugKit.Lib');
 
 /**
- * Request Panel
+ * Request Plus Panel
  *
  * Provides debug information on the Current request params.
  *
