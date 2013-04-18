@@ -24,7 +24,7 @@ class RequestPlusPanel extends DebugPanel {
  *
  * @var string
  */
-	public $title = 'ReqPlus';
+	public $title = 'Req+';
 
 /**
  * beforeRender callback - grabs request params
@@ -33,6 +33,11 @@ class RequestPlusPanel extends DebugPanel {
  **/
 	public function beforeRender(Controller $controller) {
 		$out = array();
+
+		$out['controllerName'] = $controller->name;
+
+		$out['passedArgs'] = $controller->passedArgs;
+
 		$out['property'] = get_object_vars($controller->request);
 
 		$out['method'] = array();
